@@ -1,2 +1,2 @@
-# Odoo-UI-Customization
+# ui-customization
 Minor customizations for the Odoo UI

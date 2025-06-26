@@ -1,0 +1,9 @@
+/* Override the specific Odoo core style for thead background */
+.o_web_client thead {
+    background-color: transparent !important;
+}
+
+/* Or a more specific selector if needed, as discussed before: */
+/* .o_time_off_calendar_dashboard thead {
+    background-color: transparent !important;
+} */

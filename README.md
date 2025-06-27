@@ -1,4 +1,4 @@
-# ui-customization
+# ui-customization-minor
 Minor customizations for the UI of Odoo Community v17.
 
 ## UI Changes

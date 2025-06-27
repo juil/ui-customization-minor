@@ -1,9 +1,7 @@
-/* Override the specific Odoo core style for thead background */
-.o_web_client thead {
+/* Fix grey overlay in calendar view of Leave/My Time/Dashboard
+Override the Odoo core style for thead background.
+Use class `.fc-dayGrid-view` to be more specific.
+*/
+.fc-dayGrid-view thead {
     background-color: transparent !important;
 }
-
-/* Or a more specific selector if needed, as discussed before: */
-/* .o_time_off_calendar_dashboard thead {
-    background-color: transparent !important;
-} */

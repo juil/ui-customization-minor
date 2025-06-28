@@ -5,4 +5,4 @@ Minor customizations for the UI of Odoo Community v17.
 
 ### 1. Calendar View Grey Bars (Leave/My Time/Dashboard)
 
-Got rid of grey bar that was overlaying calendar view.
+Removes the grey bar that was overlaying the calendar view. **Details:** [Issue #2](https://github.com/juil/ui-customization-minor/pull/2#issue-3181832864)

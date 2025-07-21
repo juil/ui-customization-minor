@@ -5,3 +5,43 @@ Use class `.fc-dayGrid-view` to be more specific.
 .fc-dayGrid-view thead {
     background-color: transparent !important;
 }
+
+// 2. Dark Mode Fixes
+/* a) App module names have a white background.
+Make background transparent.
+*/
+.oe_module_name {
+  background-color: transparent !important;
+}
+/* b) Discuss Channel name background is unnecessary.
+- Inherit background color.
+- Inherit text color.
+- Inherit divider color.
+*/
+.knk_night_mode .o_input {
+  background-color: inherit;
+  color: inherit;
+}
+.knk_night_mode .border-start {
+  border-left-color: inherit !important;
+}
+/* c) Folder icon to inherit color.
+Was previously being set to a fixed dark color.
+*/
+.text-primary {
+  color: inherit;
+}
+/* d) Kanban title inherit color.
+Primarily affecting Recruitment module.
+Was previously being set to a fixed dark color.
+*/
+.o_primary {
+  color: inherit !important;
+}
+/* e) Inherit danger text color.
+Primarily seen in Attendance module.
+#TODO Use more generic selector.
+*/
+body.knk_night_mode .o_list_renderer .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button):not(.o_list_record_remove):not(.o_list_record_open_form_view) {
+    color: inherit;
+}

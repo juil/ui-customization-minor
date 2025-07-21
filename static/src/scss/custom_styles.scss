@@ -27,9 +27,10 @@ Make background transparent.
 }
 /* c) Folder icon to inherit color.
 Was previously being set to a fixed dark color.
+Gets overridden if not set as !important
 */
 .text-primary {
-  color: inherit;
+  color: inherit !important;
 }
 /* d) Kanban title inherit color.
 Primarily affecting Recruitment module.

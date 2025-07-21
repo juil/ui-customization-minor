@@ -14,12 +14,12 @@ Make background transparent.
   background-color: transparent !important;
 }
 /* b) Discuss Channel name background is unnecessary.
-- Make background transparent.
-- Make all text white.
+- Inherit background color.
+- Inherit text color.
 */
 .knk_night_mode .o_input {
-  background-color: transparent;
-  color: white;
+  background-color: inherit;
+  color: inherit;
 }
 /* c) Folder icon to inherit color.
 Was previously being set to a fixed dark color.

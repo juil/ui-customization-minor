@@ -16,10 +16,14 @@ Make background transparent.
 /* b) Discuss Channel name background is unnecessary.
 - Inherit background color.
 - Inherit text color.
+- Inherit divider color.
 */
 .knk_night_mode .o_input {
   background-color: inherit;
   color: inherit;
+}
+.knk_night_mode .border-start {
+  border-left-color: inherit !important;
 }
 /* c) Folder icon to inherit color.
 Was previously being set to a fixed dark color.

@@ -12,3 +12,4 @@ Got rid of grey bar that was overlaying calendar view.
 a) Fix app module name background.
 b) Fix Discuss Channel name background.
 c) Inherit icon color.
+d) Kanban title color inherit.

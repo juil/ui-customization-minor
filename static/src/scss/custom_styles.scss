@@ -27,3 +27,9 @@ Was previously being set to a fixed dark color.
 .text-primary {
   color: inherit;
 }
+/* d) Kanban title inherit color.
+Primarily affecting Recruitment module.
+Was previously being set to a fixed dark color.
+*/
+.o_primary {
+  color: inherit !important;

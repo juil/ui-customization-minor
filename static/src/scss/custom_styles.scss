@@ -21,3 +21,9 @@ Make background transparent.
   background-color: transparent;
   color: white;
 }
+/* c) Folder icon to inherit color.
+Was previously being set to a fixed dark color.
+*/
+.text-primary {
+  color: inherit;
+}

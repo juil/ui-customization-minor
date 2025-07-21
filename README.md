@@ -10,3 +10,4 @@ Got rid of grey bar that was overlaying calendar view.
 ### 2. Dark Mode Fixes
 
 a) Fix app module name background.
+b) Fix Discuss Channel name background.

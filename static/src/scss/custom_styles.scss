@@ -13,3 +13,11 @@ Make background transparent.
 .oe_module_name {
   background-color: transparent !important;
 }
+/* b) Discuss Channel name background is unnecessary.
+- Make background transparent.
+- Make all text white.
+*/
+.knk_night_mode .o_input {
+  background-color: transparent;
+  color: white;
+}

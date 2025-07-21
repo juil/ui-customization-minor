@@ -15,13 +15,18 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - d. Kanban title color inherit.
 - e. Inherit text-danger color.
 - #TODO
-    - Table tab and action text color (eg. Quotation)
-    - Favorite filter background-color (the star)
-    - Empty module screen background-image (Reminders) `.o_view_nocontent`
-    - CRM Dashboard
-    - Activity Management
-    - Accounting dashboard, type organization text color
-    - Project, Favorite start color
-    - Surveys, Try It
-    - Leave, Calendar background color
-    - URL hyperlink color
+    - [ ] Table tab and action text color (eg. Quotation)
+    - [ ] Favorite filter background-color (the star)
+    - [ ] Empty module screen background-image (Reminders) `.o_view_nocontent`
+    - [ ] CRM Dashboard
+    - [ ] Activity Management
+    - [ ] Accounting dashboard, type organization text color
+    - [ ] Project, Favorite start color
+    - [ ] Surveys, Try It
+    - [ ] [HIGH] Leave, Calendar background color
+    - [ ] [MEDIUM] URL hyperlink color
+    - [ ] Employees
+        - [ ] [MEDIUM] Org chart number color
+    - [ ] [LOW] App drawer icon background
+    - [ ] [LOW] Record save/revert icon background
+    - [ ] [MEDIUM] Modify filter condition text color

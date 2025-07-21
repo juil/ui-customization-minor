@@ -5,3 +5,11 @@ Use class `.fc-dayGrid-view` to be more specific.
 .fc-dayGrid-view thead {
     background-color: transparent !important;
 }
+
+// 2. Dark Mode Fixes
+/* a) App module names have a white background.
+Make background transparent.
+*/
+.oe_module_name {
+  background-color: transparent !important;
+}

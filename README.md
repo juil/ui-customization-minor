@@ -13,3 +13,4 @@ a) Fix app module name background.
 b) Fix Discuss Channel name background.
 c) Inherit icon color.
 d) Kanban title color inherit.
+e) Inherit text-danger color.

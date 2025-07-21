@@ -40,7 +40,7 @@ Was previously being set to a fixed dark color.
 }
 /* e) Inherit danger text color.
 Primarily seen in Attendance module.
-#TODO User more generic selector.
+#TODO Use more generic selector.
 */
 body.knk_night_mode .o_list_renderer .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button):not(.o_list_record_remove):not(.o_list_record_open_form_view) {
     color: inherit;

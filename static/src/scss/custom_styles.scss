@@ -13,6 +13,7 @@ Make background transparent.
 .oe_module_name {
   background-color: transparent !important;
 }
+
 /* b) Discuss Channel name background is unnecessary.
 - Inherit background color.
 - Inherit text color.
@@ -25,6 +26,7 @@ Make background transparent.
 .knk_night_mode .border-start {
   border-left-color: inherit !important;
 }
+
 /* c) Folder icon to inherit color.
 Was previously being set to a fixed dark color.
 Gets overridden if not set as !important
@@ -32,6 +34,7 @@ Gets overridden if not set as !important
 .text-primary {
   color: inherit !important;
 }
+
 /* d) Kanban title inherit color.
 Primarily affecting Recruitment module.
 Was previously being set to a fixed dark color.
@@ -39,10 +42,34 @@ Was previously being set to a fixed dark color.
 .o_primary {
   color: inherit !important;
 }
+
 /* e) Inherit danger text color.
 Primarily seen in Attendance module.
-#TODO Use more generic selector.
+##TODO Use more generic selector if possible. Works as-is.
 */
 body.knk_night_mode .o_list_renderer .o_list_table tbody > tr > td:not(.o_list_record_selector):not(.o_handle_cell):not(.o_list_button):not(.o_list_record_remove):not(.o_list_record_open_form_view) {
     color: inherit;
+}
+
+/* f) Set Time Off/Leave Dashboard background dark.
+#TODO: Figure out selector specific to dark mode
+*/
+/*
+.o_timeoff_dashboard {
+  background-color: #242733;
+}
+.o_calendar_renderer {
+  background-color: #242733;
+}
+*/
+
+/* g) No Content Background color.
+Affects all modules.
+*/
+.o_view_nocontent {
+  background-image: inherit;
+}
+.o_view_sample_data .o_nocontent_help {
+  background-color: white;
+  box-shadow: none;
 }

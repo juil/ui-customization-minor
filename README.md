@@ -14,6 +14,9 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - c. Inherit icon color.
 - d. Kanban title color inherit.
 - e. Inherit text-danger color.
+- f. My Time, Dashboard, Calendar background color
+    - #TODO: More specific selector
+- g. No Content background
 - #TODO
     - [ ] Table tab and action text color (eg. Quotation)
     - [ ] Favorite filter background-color (the star)
@@ -23,7 +26,8 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
     - [ ] Accounting dashboard, type organization text color
     - [ ] Project, Favorite start color
     - [ ] Surveys, Try It
-    - [ ] [HIGH] Leave, Calendar background color
+    - Leave
+        - [ ] Overview, Calendar event text
     - [ ] [MEDIUM] URL hyperlink color
     - [ ] Employees
         - [ ] [MEDIUM] Org chart number color

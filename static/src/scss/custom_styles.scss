@@ -93,3 +93,9 @@ Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
 .o_hr_leave_form .o_hr_leave_content .col_right {
   background-color: inherit;
 }
+
+/* k) Discuss chat minimized window text color
+*/
+.knk_night_mode .bg-100 {
+  color: white;
+}

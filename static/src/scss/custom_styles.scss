@@ -73,3 +73,23 @@ Affects all modules.
   background-color: white;
   box-shadow: none;
 }
+
+/* h) MK App Icon Background
+Affects App Drawer
+*/
+.o_navbar_apps_menu.show .dropdown-menu .o_app > a .mk_app_icon {
+  background-color: inherit;
+}
+
+/* i) Command Pallete selector opacity
+Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
+*/
+.o_command_palette_l istbox .o_command.focused {
+  background: rgb(217,227,234,0.5);
+}
+
+/* j) HR Leave right column background
+*/
+.o_hr_leave_form .o_hr_leave_content .col_right {
+  background-color: inherit;
+}

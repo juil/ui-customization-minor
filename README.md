@@ -17,6 +17,9 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - f. My Time, Dashboard, Calendar background color
     - #TODO: More specific selector
 - g. No Content background
+- h. MK App drawer icon background
+- i. Command Pallete selector opacity
+- j. HR Leave right column background
 - #TODO
     - [ ] Table tab and action text color (eg. Quotation)
     - [ ] Favorite filter background-color (the star)
@@ -31,6 +34,5 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
     - [ ] [MEDIUM] URL hyperlink color
     - [ ] Employees
         - [ ] [MEDIUM] Org chart number color
-    - [ ] [LOW] App drawer icon background
     - [ ] [LOW] Record save/revert icon background
-    - [ ] [MEDIUM] Modify filter condition text color
+    - [ ] [MEDIUM] Search filter condition text color

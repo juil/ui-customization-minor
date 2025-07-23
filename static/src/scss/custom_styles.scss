@@ -85,13 +85,14 @@ Affects App Drawer
 Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
 */
 .o_command_palette_l istbox .o_command.focused {
-  background: rgb(217,227,234,0.5);
+  background: rgb(150,150,150,0.3);
 }
 
 /* j) HR Leave right column background
+Original color is too bright. Make it a neutral grey with low opacity so it works with both light and dark mode.
 */
 .o_hr_leave_form .o_hr_leave_content .col_right {
-  background-color: inherit;
+  background-color: rgb(150,150,150,0.1);
 }
 
 /* k) Discuss chat minimized window text color

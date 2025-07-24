@@ -51,17 +51,22 @@ body.knk_night_mode .o_list_renderer .o_list_table tbody > tr > td:not(.o_list_r
     color: inherit;
 }
 
-/* f) Set Time Off/Leave Dashboard background dark.
-#TODO: Figure out selector specific to dark mode
+/* f) Time Off/Leave Module Colors
 */
-/*
-.o_timeoff_dashboard {
+// Calendar Background
+.knk_night_mode .o_timeoff_calendar {
   background-color: #242733;
 }
 .o_calendar_renderer {
-  background-color: #242733;
+  background-color: inherit;
 }
-*/
+.o.timeoff_dashboard {
+  background-color: inherit;
+}
+// Overview Calendar text
+.knk_night_mode .fc-day-grid-event .fc-content {
+    color: inherit;
+}
 
 /* g) No Content Background color.
 Affects all modules.
@@ -132,4 +137,11 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 }
 .knk_night_mode h1, .knk_night_mode .h1, .knk_night_mode h2, .knk_night_mode .h2, .knk_night_mode h3, .knk_night_mode .h3, .knk_night_mode h4, .knk_night_mode .h4, .knk_night_mode h5, .knk_night_mode .h5, .knk_night_mode h6, .knk_night_mode .h6, .knk_night_mode label, .knk_night_mode b, .knk_night_mode p {
   color: inherit;
+}
+
+/* x) Miscellaneous fixes
+*/
+// Button color
+.knk_night_mode .btn-light {
+  background-color: lightgrey;
 }

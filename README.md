@@ -14,13 +14,14 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - c. Inherit icon color.
 - d. Kanban title color inherit.
 - e. Inherit text-danger color.
-- f. My Time, Dashboard, Calendar background color
-    - #TODO: More specific selector
+- f. Time Off/Leave Calendar background color
 - g. No Content background
 - h. MK App drawer icon background
 - i. Command Pallete selector opacity
 - j. HR Leave right column background
 - k. Discuss Chat minimized text color
+- l. Hyperlink colors
+- x. Miscellaneous Fixes
 - #TODO
     - [ ] Table tab and action text color (eg. Quotation)
     - [ ] Favorite filter background-color (the star)
@@ -32,7 +33,6 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
     - [ ] Surveys, Try It
     - Leave
         - [ ] Overview, Calendar event text
-    - [ ] [MEDIUM] URL hyperlink color
     - [ ] Employees
         - [ ] [MEDIUM] Org chart number color
     - [ ] [LOW] Record save/revert icon background

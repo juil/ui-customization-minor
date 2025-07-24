@@ -20,6 +20,7 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - h. MK App drawer icon background
 - i. Command Pallete selector opacity
 - j. HR Leave right column background
+- k. Discuss Chat minimized text color
 - #TODO
     - [ ] Table tab and action text color (eg. Quotation)
     - [ ] Favorite filter background-color (the star)

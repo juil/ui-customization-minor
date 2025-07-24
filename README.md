@@ -21,6 +21,7 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - j. HR Leave right column background
 - k. Discuss Chat minimized text color
 - l. Hyperlink colors
+- m. OHMS Dashboard
 - x. Miscellaneous Fixes
 - #TODO
     - [ ] Table tab and action text color (eg. Quotation)

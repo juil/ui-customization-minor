@@ -112,7 +112,11 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 */
 // Set all dark mode links color
 .knk_night_mode a {
-  color: inherit;
+  color: inherit !important;
+}
+// Text field link color
+.o_field_html a:not(.btn) {
+  color: #008f8c !important;
 }
 // Breadcrumb link color
 .knk_night_mode .o_control_panel .breadcrumb .breadcrumb-item:not(.active) {

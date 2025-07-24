@@ -112,11 +112,11 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 */
 // Set all dark mode links color
 .knk_night_mode a {
-    color: inherit;
+  color: inherit;
 }
 // Breadcrumb link color
 .knk_night_mode .o_control_panel .breadcrumb .breadcrumb-item:not(.active) {
-    color: #8bc6e6;
+  color: #8bc6e6;
 }
 // Fix Command Pallete text
 .o_command_palette_listbox .o_command_hotkey {
@@ -125,4 +125,7 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 // Set default text for Night Mode
 .knk_night_mode {
   color: white;
+}
+.knk_night_mode h1, .knk_night_mode .h1, .knk_night_mode h2, .knk_night_mode .h2, .knk_night_mode h3, .knk_night_mode .h3, .knk_night_mode h4, .knk_night_mode .h4, .knk_night_mode h5, .knk_night_mode .h5, .knk_night_mode h6, .knk_night_mode .h6, .knk_night_mode label, .knk_night_mode b, .knk_night_mode p {
+  color: inherit;
 }

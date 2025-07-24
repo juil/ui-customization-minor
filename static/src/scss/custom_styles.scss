@@ -1,4 +1,4 @@
-/* Fix grey overlay in calendar view of Leave/My Time/Dashboard
+/* 1. Fix grey overlay in calendar view of Leave/My Time/Dashboard
 Override the Odoo core style for thead background.
 Use class `.fc-dayGrid-view` to be more specific.
 */
@@ -139,8 +139,34 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 .knk_night_mode {
   color: white;
 }
+// Set colors to inherit instead of white
+// Not sure how useful this is.
+// #TODO: Remove
+/*
 .knk_night_mode h1, .knk_night_mode .h1, .knk_night_mode h2, .knk_night_mode .h2, .knk_night_mode h3, .knk_night_mode .h3, .knk_night_mode h4, .knk_night_mode .h4, .knk_night_mode h5, .knk_night_mode .h5, .knk_night_mode h6, .knk_night_mode .h6, .knk_night_mode label, .knk_night_mode b, .knk_night_mode p {
   color: inherit;
+}
+*/
+
+/* m) OHMS Dashboard
+*/
+// Dashboard Background
+.knk_night_mode .oh_dashboards {
+  background-color: #2b3840 !important;
+}
+// Dashboard Cards
+// General cards, graphs, and notifications
+.knk_night_mode .hr-chart-1, .knk_night_mode .hr_notification,
+.knk_night_mode .oh-card {
+  background-color: #354859 !important;
+  color: aliceblue;
+}
+// Additional cards: leave manager, stat widgets
+.knk_night_mode .leave-manager, .knk_night_mode .stat-widget-one{
+  background-color: #354859;
+}
+.knk_night_mode .stat-digit {
+  color: aliceblue !important;
 }
 
 /* x) Miscellaneous fixes

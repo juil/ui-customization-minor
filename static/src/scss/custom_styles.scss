@@ -28,7 +28,7 @@ Make background transparent.
   border-left-color: inherit !important;
 }
 .knk_night_mode button.o-mail-MessageReaction.btn {
-    background-color: slategray;
+  background-color: slategray;
 }
 
 /* c) Folder icon to inherit color.
@@ -145,6 +145,10 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 
 /* x) Miscellaneous fixes
 */
+// Set generic night mode background
+.knk_night_mode .bg-view, .knk_night_mode .text-bg-view {
+  background-color: #242733 !important;
+}
 // Button color
 .knk_night_mode .btn-light {
   background-color: lightgrey;

@@ -14,7 +14,7 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - c. Inherit icon color.
 - d. Kanban title color inherit.
 - e. Inherit text-danger color.
-- f. Time Off/Leave Calendar background color
+- f. Time Off/Leave Calendar colors
 - g. No Content background
 - h. MK App drawer icon background
 - i. Command Pallete selector opacity
@@ -31,9 +31,8 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
     - [ ] Accounting dashboard, type organization text color
     - [ ] Project, Favorite start color
     - [ ] Surveys, Try It
-    - Leave
-        - [ ] Overview, Calendar event text
     - [ ] Employees
         - [ ] [MEDIUM] Org chart number color
     - [ ] [LOW] Record save/revert icon background
     - [ ] [MEDIUM] Search filter condition text color
+    - [ ] Toggle icon color

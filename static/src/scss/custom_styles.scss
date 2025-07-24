@@ -84,7 +84,7 @@ Affects App Drawer
 /* i) Command Pallete selector opacity
 Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
 */
-.o_command_palette_l istbox .o_command.focused {
+.o_command_palette_listbox .o_command.focused {
   background: rgba(150,150,150,0.3);
 }
 
@@ -95,8 +95,34 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
   background-color: rgba(150,150,150,0.1);
 }
 
-/* k) Discuss chat minimized window text color
+/* k) Discuss chat window
 */
+// Discuss chat when minimized.
+// Make chat subject text white.
 .knk_night_mode .bg-100 {
+  color: white;
+}
+// Discuss chat dropdown menu.
+// Make text white.
+.knk_night_mode .dropdown-menu {
+  color: white;
+}
+
+/* l) URL text color.
+*/
+// Set all dark mode links color
+.knk_night_mode a {
+    color: inherit;
+}
+// Breadcrumb link color
+.knk_night_mode .o_control_panel .breadcrumb .breadcrumb-item:not(.active) {
+    color: #8bc6e6;
+}
+// Fix Command Pallete text
+.o_command_palette_listbox .o_command_hotkey {
+  color: inherit;
+}
+// Set default text for Night Mode
+.knk_night_mode {
   color: white;
 }

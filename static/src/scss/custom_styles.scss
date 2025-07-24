@@ -16,15 +16,19 @@ Make background transparent.
 
 /* b) Discuss Channel name background is unnecessary.
 - Inherit background color.
-- Inherit text color.
+- Set input color as white.
 - Inherit divider color.
+- Make reaction backgrounds dark.
 */
 .knk_night_mode .o_input {
   background-color: inherit;
-  color: inherit;
+  color: white !important;
 }
 .knk_night_mode .border-start {
   border-left-color: inherit !important;
+}
+.knk_night_mode button.o-mail-MessageReaction.btn {
+    background-color: slategray;
 }
 
 /* c) Folder icon to inherit color.

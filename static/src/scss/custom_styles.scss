@@ -62,7 +62,7 @@ body.knk_night_mode .o_list_renderer .o_list_table tbody > tr > td:not(.o_list_r
   background-color: #242733;
 }
 .knk_night_mode .o_calendar_renderer, .knk_night_mode .o.timeoff_dashboard {
-  background-color: inherit;
+  background-color: #242733 !important;
 }
 .knk_night_mode .o_timeoff_name {
   color: aliceblue;

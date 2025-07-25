@@ -189,6 +189,14 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
   color: aliceblue !important;
 }
 
+/* n. Mail Composer
+Applies to *Send message* and *Log note* actions.
+Modules: Attendance, etc.
+*/
+.knk_night_mode .o-mail-Composer {
+  background-color: #242733;
+}
+
 /* x) Miscellaneous fixes
 */
 // Set generic night mode background

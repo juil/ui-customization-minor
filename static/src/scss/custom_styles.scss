@@ -208,6 +208,13 @@ Make input field placeholder text lower opacity.
   opacity: 0.6;
 }
 
+/* p. Search bar
+*/
+// Search Drop Down Menu, affects light mode
+.o-dropdown--menu .dropdown-item.focus:not(.knk_night_mode) {
+  background-color: rgba(119,128,165,0.2) !important;
+}
+
 /* x) Miscellaneous fixes
 */
 // Set generic night mode background

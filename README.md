@@ -24,6 +24,7 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - m. OHMS Dashboard
 - n. Mail Composer (Send Message, Log Note)
 - o. Placeholder text opacity
+- p. Search bar
 - x. Miscellaneous Fixes
 - y. Variables
 - #TODO

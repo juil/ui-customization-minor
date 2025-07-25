@@ -58,8 +58,12 @@ body.knk_night_mode .o_list_renderer .o_list_table tbody > tr > td:not(.o_list_r
 /* f) Time Off/Leave Module Colors
 */
 // Calendar Background
-.knk_night_mode .o_timeoff_calendar, .knk_night_mode .o_calendar_renderer, .knk_night_mode .o.timeoff_dashboard {
+.knk_night_mode .o_timeoff_calendar, .knk_night_mode .o_calendar_renderer {
   background-color: #242733 !important;
+}
+//Leave Dashboard
+.knk_night_mode .o_timeoff_card {
+  background-color: #3d3f4c;
 }
 .knk_night_mode .o_timeoff_name {
   color: aliceblue;

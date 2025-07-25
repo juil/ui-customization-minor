@@ -66,7 +66,7 @@ body.knk_night_mode .o_list_renderer .o_list_table tbody > tr > td:not(.o_list_r
 */
 // Calendar Background
 .knk_night_mode .o_timeoff_calendar, .knk_night_mode .o_calendar_renderer {
-  background-color: #242733 !important;
+  background-color: var(--nightmode-bg-back) !important;
 }
 //Leave Dashboard
 .knk_night_mode .o_timeoff_card {
@@ -149,11 +149,11 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 }
 // Breadcrumb link color
 .knk_night_mode .o_control_panel .breadcrumb .breadcrumb-item:not(.active) {
-  color: #8bc6e6;
+  color: var(--nightmode-link);
 }
 // Button Link Color
 .knk_night_mode .btn-link {
-  color: #8bc6e6;
+  color: var(--nightmode-link);
 }
 // Fix Command Pallete text
 .o_command_palette_listbox .o_command_hotkey {
@@ -198,7 +198,7 @@ Applies to *Send message* and *Log note* actions.
 Modules: Attendance, etc.
 */
 .knk_night_mode .o-mail-Composer {
-  background-color: #242733;
+  background-color: var(--nightmode-bg-back);
 }
 
 /* o. Placeholder text
@@ -212,9 +212,19 @@ Make input field placeholder text lower opacity.
 */
 // Set generic night mode background
 .knk_night_mode .bg-view, .knk_night_mode .text-bg-view {
-  background-color: #242733 !important;
+  background-color: var(--nightmode-bg-back) !important;
 }
 // Button color
 .knk_night_mode .btn-light {
   background-color: lightgrey;
+}
+
+/* y. Variables
+#TODO: Use variables
+*/
+body.knk_night_mode
+{
+  --nightmode-link: #8bc6e6;
+  --nightmode-bg-back: #242733;
+  // --nightmode-bg-front: ;
 }

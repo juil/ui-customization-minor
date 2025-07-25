@@ -25,6 +25,7 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - n. Mail Composer (Send Message, Log Note)
 - o. Placeholder text opacity
 - x. Miscellaneous Fixes
+- y. Variables
 - #TODO
     - [ ] Table tab and action text color (eg. Quotation)
     - [ ] Favorite filter background-color (the star)

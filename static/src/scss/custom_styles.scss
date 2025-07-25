@@ -197,6 +197,13 @@ Modules: Attendance, etc.
   background-color: #242733;
 }
 
+/* o. Placeholder text
+Make input field placeholder text lower opacity.
+*/
+.knk_night_mode input::placeholder, .knk_night_mode textarea::placeholder {
+  opacity: 0.6;
+}
+
 /* x) Miscellaneous fixes
 */
 // Set generic night mode background

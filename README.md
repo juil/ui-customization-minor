@@ -23,6 +23,7 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - l. Hyperlink colors
 - m. OHMS Dashboard
 - n. Mail Composer (Send Message, Log Note)
+- o. Placeholder text opacity
 - x. Miscellaneous Fixes
 - #TODO
     - [ ] Table tab and action text color (eg. Quotation)

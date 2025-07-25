@@ -151,6 +151,10 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 .knk_night_mode .o_control_panel .breadcrumb .breadcrumb-item:not(.active) {
   color: #8bc6e6;
 }
+// Button Link Color
+.knk_night_mode .btn-link {
+  color: #8bc6e6;
+}
 // Fix Command Pallete text
 .o_command_palette_listbox .o_command_hotkey {
   color: inherit;

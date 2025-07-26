@@ -223,7 +223,8 @@ Make input field placeholder text lower opacity.
 }
 // Button color
 .knk_night_mode .btn-light {
-  background-color: lightgrey;
+  // Not sure why this change was made. Causes save button to have white background
+  // background-color: lightgrey;
 }
 
 /* y. Variables

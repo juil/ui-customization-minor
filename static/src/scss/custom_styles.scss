@@ -197,7 +197,7 @@ Original color is too bright. Make it a neutral grey with low opacity so it work
 Applies to *Send message* and *Log note* actions.
 Modules: Attendance, etc.
 */
-.knk_night_mode .o-mail-Composer {
+.knk_night_mode .o-mail-Composer, .knk_night_mode .o-mail-Chatter-top {
   background-color: var(--nightmode-bg-back);
 }
 

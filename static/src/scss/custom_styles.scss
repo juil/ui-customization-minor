@@ -127,6 +127,10 @@ Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
 .knk_night_mode .o_calendar_renderer .o_calendar_widget .fc-dayGridYear-view:not(.fc-readonly-year-view) .fc-day-top:hover > .fc-day-number {
     --o-cw-bg: rgba(125, 125, 125, 0.5);
 }
+// Calendar Today Background Color
+.knk_night_mode .fc-unthemed .fc-today {
+    background: unset !important;
+}
 
 /* k) Discuss chat window
 */

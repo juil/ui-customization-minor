@@ -131,6 +131,13 @@ Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
 .knk_night_mode .fc-unthemed .fc-today {
     background: unset !important;
 }
+// Calendar 'To Approve' background. Make more visible.
+.knk_night_mode .o_calendar_renderer .fc-view .o_calendar_color_8.o_event_hatched:not(.o_event_dot):not(.fc-day-grid-event):not(.fc-time-grid-event), .knk_night_mode .o_calendar_renderer .fc-view .o_calendar_color_8.o_event_hatched .fc-bg, .knk_night_mode .o_calendar_renderer .fc-view .o_calendar_color_8.o_attendee_status_tentative:not(.o_event_dot) .fc-bg {
+    background: repeating-linear-gradient(45deg, RGBA(0, 255, 255, 0.2), RGBA(0, 255, 255, 0.2) 10px, RGBA(0, 255, 255, 0.4) 10px, RGBA(0, 255, 255, 0.4) 20px) !important;
+}
+.fc-bgevent {
+  opacity: 0.5;
+}
 
 /* k) Discuss chat window
 */

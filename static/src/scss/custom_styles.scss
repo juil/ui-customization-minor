@@ -117,11 +117,15 @@ Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
   background: rgba(150,150,150,0.3);
 }
 
-/* j) HR Leave right column background
-Original color is too bright. Make it a neutral grey with low opacity so it works with both light and dark mode.
+/* j) HR Leave
 */
+// Right column background. Original color is too bright. Make it a neutral grey with low opacity so it works with both light and dark mode.
 .o_hr_leave_form .o_hr_leave_content .col_right {
   background-color: rgba(150,150,150,0.1);
+}
+// Calendar Day Hover. Make background lower opacity.
+.knk_night_mode .o_calendar_renderer .o_calendar_widget .fc-dayGridYear-view:not(.fc-readonly-year-view) .fc-day-top:hover > .fc-day-number {
+    --o-cw-bg: rgba(125, 125, 125, 0.5);
 }
 
 /* k) Discuss chat window

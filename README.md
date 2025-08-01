@@ -18,7 +18,7 @@ Removes the grey bar that was overlaying the calendar view. **Details:** [Issue 
 - g. No Content background
 - h. MK App drawer icon background
 - i. Command Pallete selector opacity
-- j. HR Leave right column background
+- j. HR Leave
 - k. Discuss Chat minimized text color
 - l. Hyperlink colors
 - m. OHMS Dashboard

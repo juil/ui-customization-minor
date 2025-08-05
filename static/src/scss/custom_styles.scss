@@ -230,6 +230,37 @@ Make input field placeholder text lower opacity.
 .o-dropdown--menu .dropdown-item.focus:not(.knk_night_mode) {
   background-color: rgba(119,128,165,0.2) !important;
 }
+// Applied filter hover background and text color
+/*
+.knk_night_mode .o_facet_value:hover, .knk_night_mode .o_facet_values:hover {
+  color: black;
+  background: white;
+}
+*/
+// Applied filter icon color = blue
+.knk_night_mode .o_searchview .o_searchview_input_container .o_searchview_facet .o_searchview_facet_label {
+    background-color: var(--primary);
+    color: white;
+}
+// Favourite filter icon color = gold
+.btn-favourite {
+    color: #000000 !important;
+    background-color: #f3cc00 !important;
+    border-color: #f3cc00 !important;
+}
+// Modify filter condition
+.knk_night_mode span.o_model_field_selector_chain_part {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+// Filter Condition Rule Selector #TODO: Fix background color
+.o_model_field_selector_popover {
+}
+// #TODO: Filter background when hovering over left filter button.
+/* 
+.knk_night_mode .o_searchview .o_searchview_facet {
+    background: white !important;
+}
+*/
 
 /* x) Miscellaneous fixes
 */

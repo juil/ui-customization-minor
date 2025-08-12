@@ -152,6 +152,10 @@ Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
 .knk_night_mode .dropdown-menu {
   color: white;
 }
+// Make emoji picker highlight darker
+.knk_night_mode .o-EmojiPicker {
+  --o-emoji-picker-active: #43607fba;
+}
 
 /* l) URL text color.
 */

@@ -161,8 +161,9 @@ Too bright in dark mode (0.65). Drop to 0.5 works well in dark and light mode.
 */
 // Set all dark mode links color
 .knk_night_mode a {
-  color: inherit !important;
+  color: var(--nightmode-link);
 }
+// #TODO: Set hyperlink color, specifically in chatter
 // Text field link color
 .o_field_html a:not(.btn) {
   color: #008f8c !important;
